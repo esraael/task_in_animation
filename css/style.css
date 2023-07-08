@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/R.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -------------------------------------------------div_1-------------------------------------------*/
+.div1{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    animation-name: ani_1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+} 
+@keyframes ani_1{
+    0%{
+left: 0;
+    }
+    100%{
+left: 1200px;
+    }
+}
+/* -------------------------------------------------div_2-------------------------------------------*/
+.div2{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    animation-delay: 2s;
+    top: 100px;
+    animation-name: ani_2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 1200px;
+} 
+@keyframes ani_2{
+    0%{
+    }
+    100%{
+left: 0px;
+    }
+} 
+/* -------------------------------------------------div_3-------------------------------------------*/
+.div3{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    animation-delay: 4s;
+    top: 200px;
+    animation-name: ani_3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+} 
+@keyframes ani_3{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1200px;
+    }
+} 
+/* -------------------------------------------------div_4-------------------------------------------*/
+.div4{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    animation-delay: 6s;
+    top: 300px;
+    animation-name: ani_4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 1200px;
+} 
+@keyframes ani_4{
+    0%{
+    }
+    100%{
+left: 0px;
+    }
+} 
+/* -------------------------------------------------div_5-------------------------------------------*/
+.div5{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    animation-delay: 8s;
+    top: 400px;
+    animation-name: ani_5;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+} 
+@keyframes ani_5{
+    0%{
+        left: 0px;
+    }
+    100%{
+left:1200px;
+    }
+} 
+/* -------------------------------------------------div_6-------------------------------------------*/
+.div6{
+    width: 1900px;
+    height: 90px;
+    position: absolute;
+    animation-delay: 10s;
+    top: 500px;
+    animation-name: ani_6;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 1200px;
+} 
+@keyframes ani_6{
+    0%{
+    }
+    100%{
+left: 0px;
+    }
+} 
+
